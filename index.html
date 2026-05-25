@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: #fff5f7;
+            color: #444;
+        }
+
+        header{
+            background-color: #f8c8dc;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1{
+            font-size: 45px;
+        }
+
+        header p{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* CONTENEDOR CENTRADO */
+        .container{
+            width: 65%;
+            margin: 20px auto;
+        }
+
+        section{
+            padding: 8px 0;
+        }
+
+        .card{
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+
+        h2{
+            color: #d87093;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #f4a6c1;
+            padding-bottom: 10px;
+        }
+
+        ul{
+            padding-left: 20px;
+        }
+
+        li{
+            margin-bottom: 8px;
+        }
+
+        footer{
+            background-color: #f8c8dc;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .boton{
+            background-color: #f4a6c1;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .boton:hover{
+            background-color: #e38cab;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hola, soy Daniela Esmeralda Huayhua Llanllaya 💖</h1>
+        <p>Bienvenido a mi página web</p>
+    </header>
+
+    <!-- TODO EL CONTENIDO CENTRADO -->
+    <div class="container">
+
+        <section id="sobre">
+            <div class="card">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy Daniela, estudiante de la carrera de Ciencias de la Computación.
+                    Me gusta la tecnología, el diseño y la programación.
+                    También me encanta aprender cosas nuevas y hacer proyectos creativos.
+                    Me gustan los gatos, la música, leer y los videojuegos.
+                </p>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <div class="card">
+                <h2>Mis cursos actuales</h2>
+
+                <ul>
+                    <li>💻 Estructuras Discretas</li>
+                    <li>💻 Introducción a las Ciencias de la Computación</li>
+                    <li>💻 Cálculo I</li>
+                    <li>💻 Análisis de la Realidad Peruana</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section id="compañeros">
+            <div class="card">
+                <h2>Mis compañeros de curso</h2>
+
+                <a class="boton"
+                href="https://ecuadros.blogspot.com/?m=1"
+                target="_blank">
+
+                    Ernesto Cuadros Vargas
+                </a>
+                <br><br>
+
+                <a class="boton"
+                href="https://google.com"
+                target="_blank">
+
+                    Compañero 2
+
+                </a>
+
+                <br><br>
+
+                <a class="boton"
+                href="https://github.com"
+                target="_blank">
+
+                    Compañero 3
+
+                </a>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="card">
+                <h2>Contacto</h2>
+
+                <p>Email: daniela.huayhua@ucsp.edu.pe</p>
+                <p>Instagram: @daniela</p>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Mi Primera Página Web</p>
+    </footer>
+
+</body>
+</html>
